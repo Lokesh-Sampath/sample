@@ -1,0 +1,18 @@
+.scrolling-gallery {
+    display: flex;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: scroll 10s linear infinite;
+  }
+  
+  .scrolling-gallery img {
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+  }
+  
+  @keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+  }
+  
